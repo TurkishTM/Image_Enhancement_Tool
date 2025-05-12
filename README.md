@@ -59,6 +59,8 @@ python image_processing.py
 - **Adjust Saturation**: Increases or decreases the color saturation of the image.
 - **Adjust Exposure**: Adjusts the exposure of the image using logarithmic mapping.
 
+- 
+
 ## Saving Images
 
 When saving the image, the application attempts to minimize compression artifacts:
@@ -70,3 +72,6 @@ When saving the image, the application attempts to minimize compression artifact
 - The application converts the image to RGB format upon loading.
 - All operations are applied to a copy of the original image, so the original remains unchanged unless saved.
 - If you try to save without making any modifications, you will be notified that there are no changes to save.
+
+- ## Reviewed By
+- MR. President Abdallah Haider
